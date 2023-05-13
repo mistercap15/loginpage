@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://api-axir.onrender.com/api';
 
 function User() {
   const [users, setUsers] = useState([]);
